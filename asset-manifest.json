@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SunriseLviv/static/css/main.5899e5e9.chunk.css",
+    "main.js": "/SunriseLviv/static/js/main.eb616d3a.chunk.js",
+    "main.js.map": "/SunriseLviv/static/js/main.eb616d3a.chunk.js.map",
+    "runtime-main.js": "/SunriseLviv/static/js/runtime-main.b30398dd.js",
+    "runtime-main.js.map": "/SunriseLviv/static/js/runtime-main.b30398dd.js.map",
+    "static/css/2.e22355b1.chunk.css": "/SunriseLviv/static/css/2.e22355b1.chunk.css",
+    "static/js/2.e9e3c7f7.chunk.js": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js",
+    "static/js/2.e9e3c7f7.chunk.js.map": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js.map",
+    "index.html": "/SunriseLviv/index.html",
+    "precache-manifest.33cd3d1f10853e8a95edfb5391a6a4ad.js": "/SunriseLviv/precache-manifest.33cd3d1f10853e8a95edfb5391a6a4ad.js",
+    "service-worker.js": "/SunriseLviv/service-worker.js",
+    "static/css/2.e22355b1.chunk.css.map": "/SunriseLviv/static/css/2.e22355b1.chunk.css.map",
+    "static/css/main.5899e5e9.chunk.css.map": "/SunriseLviv/static/css/main.5899e5e9.chunk.css.map",
+    "static/js/2.e9e3c7f7.chunk.js.LICENSE.txt": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js.LICENSE.txt",
+    "static/media/HeaderInfo.scss": "/SunriseLviv/static/media/phone.6774a16f.png",
+    "static/media/Footer.scss": "/SunriseLviv/static/media/social-3.817d585a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b30398dd.js",
+    "static/css/2.e22355b1.chunk.css",
+    "static/js/2.e9e3c7f7.chunk.js",
+    "static/css/main.5899e5e9.chunk.css",
+    "static/js/main.eb616d3a.chunk.js"
+  ]
+}
