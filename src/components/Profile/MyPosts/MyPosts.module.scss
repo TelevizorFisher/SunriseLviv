@@ -1,0 +1,135 @@
+$color: #8b2fe1ac;
+$Mcolor: #46b6a0;
+
+//======form==========//
+
+.coment_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 20px 0px;
+}
+.coment_form {
+  margin: 30px 0px 30px 0px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+
+  border-radius: 50px;
+}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 30px 0px 30px 0px;
+  background-color: $color;
+  border-radius: 30px;
+}
+.form_left_decoration,
+.form_right_decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: $Mcolor;
+  border-radius: 20px;
+}
+.form_left_decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form_right_decoration {
+  top: 60px;
+  right: -30px;
+}
+.form_left_decoration:before,
+.form_left_decoration:after,
+.form_right_decoration:before,
+.form_right_decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: $color;
+}
+.form_left_decoration:before {
+  top: -20px;
+}
+.form_left_decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form_right_decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form_right_decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $color;
+}
+.form_inner {
+  padding: 50px;
+
+}
+.form_inner input,
+.form_inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #e9eff6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form_inner input[type="submit"] {
+  margin-top: 30px;
+  background: $Mcolor;
+  border-bottom: 4px solid $Mcolor;
+  color: $color;
+  font-size: 14px;
+}
+.form_inner textarea {
+  resize: none;
+}
+.form_inner h3 {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #707981;
+}
+.coment_button {
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 3px;
+  font-weight: bold;
+  color: $Mcolor;
+  border-radius: 15px;
+  border: 2px solid $Mcolor;
+  cursor: pointer;
+  &:hover {
+    background: $Mcolor;
+    color: #fff;
+    transition: color 0.3s, background 0.3s;
+  }
+}
+//======form==========//

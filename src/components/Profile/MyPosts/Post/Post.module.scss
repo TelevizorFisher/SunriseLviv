@@ -1,0 +1,26 @@
+
+.coment{
+	&__body{
+		padding: 0px 15px 15px 15px;
+		display: flex;
+		flex-direction: column;
+		min-width: 400px;
+		width: 400px;
+		background-color: rgba(49, 41, 41, 0.076);
+	}
+	&__name{
+		padding: 20px 5px 0px 5px;
+		font-weight: bold;
+		color: #000;
+		font-size: 16px;
+		text-align: center;
+	}
+	&__text{
+		margin: 0px 0px 10px 0px;
+		text-indent: 15px;
+		padding: 20px 5px 0px 5px;
+		font-weight: normal;
+		color: #000;
+		font-size: 14px;
+	}
+}

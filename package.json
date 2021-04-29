@@ -1,0 +1,64 @@
+{
+  "name": "reminder",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": " https://github.com/TelevizorFisher/SunriseLviv",
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^1.4.1",
+    "@emotion/core": "^10.1.1",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@react-icons/all-files": "^4.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "emotion-theming": "^11.0.0",
+    "final-form": "^4.20.2",
+    "final-form-focus": "^1.1.2",
+    "framer-motion": "^4.0.3",
+    "node-sass": "^4.14.1",
+    "position.js": "^0.3.0",
+    "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^16.13.1",
+    "react-final-form": "^6.5.3",
+    "react-icons": "^4.2.0",
+    "react-modal": "^3.12.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-tippy": "^1.4.0",
+    "redux": "^4.0.5",
+    "simple-line-icons": "^2.5.5",
+    "typescript": "^4.2.2",
+    "zustand": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

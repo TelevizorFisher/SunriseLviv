@@ -1,0 +1,409 @@
+$minwidth: 320px;
+$mw: 1024;
+$md1: $mw + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+$mainColor: #ff6200;
+$mainGreyColor: #5d5e5f;
+/* 
+====== 
+Variables 
+======
+*/
+:root {
+  --primaryLightColor: #d4e6a5;
+  --primaryColor: #696565;
+  --primaryDarkColor: #c02c03;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBackground: #f1f5f8;
+  --mainOverlay: rgba(35, 10, 36, 0.4);
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
+  --mainRed: #bd0303;
+  --main: #f77829;
+  --mainText: #373737;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.2rem;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+  --maxWidth: 40rem;
+  --fullWidth: 1170px;
+}
+/* 
+====== 
+Global Styles 
+======
+*/
+//<Подключаем шрифты>=======================================================================================
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,900&display=swap");
+//</Подключаем шрифты>=======================================================================================
+
+//<Иконочные шрифты>==========================================================================================
+
+//</Иконочные шрифты>==========================================================================================
+
+//<Шрифт по умолчанию>==========================================================================================
+$fontfamily: "Roboto", "sans-serif";
+//</Шрифт по умолчанию>==========================================================================================
+hr {
+  border: none; /* Убираем границу */
+  background-color: $mainGreyColor; /* Цвет линии */
+  color: $mainGreyColor; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  margin: 15px 0px 0px 0px;
+}
+nav {
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  min-width: $minwidth;
+}
+body {
+  line-height: 1;
+  font-family: $fontfamily;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--mainBlack);
+  background: var(--mainBackground);
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 300;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: calc(100vh - 60px);
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+input,
+button,
+textarea {
+  font-family: $fontfamily;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+.container {
+  padding: 5rem 0 0 0;
+  max-width: $mw + px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  @media (max-width: $md1+px) {
+    max-width: 980px;
+  }
+  @media (max-width: $md2+px) {
+    max-width: 750px;
+  }
+  @media (max-width: $md3+px) {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+.container-footer {
+  padding: 0px 0px 0px 0px;
+  max-width: $mw + px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  @media (max-width: $md1+px) {
+    max-width: 980px;
+  }
+  @media (max-width: $md2+px) {
+    max-width: 750px;
+  }
+  @media (max-width: $md3+px) {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+/* 
+====== 
+Buttons 
+======
+*/
+.btn,
+.btn-white,
+.btn-primary {
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  padding: 0.45rem 0.8rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: var(--mainBorderRadius);
+  display: inline-block;
+}
+.btn:hover {
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+}
+.btn-white {
+  background: transparent;
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
+}
+.btn-white:hover {
+  background: var(--mainWhite);
+  color: var(--primaryColor);
+}
+.btn-primary {
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  border-color: transparent;
+}
+.btn-primary:hover {
+  background: var(--primaryLightColor);
+  color: var(--primaryColor);
+}
+.btn-block {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--lightShadow);
+  text-align: center;
+}
+.btn-details {
+  padding: 0.25rem 0.4rem;
+}
+.btn-details:hover {
+  background: var(--primaryLightColor);
+  border-color: var(--primaryLightColor);
+}
+/* 
+====== 
+Navbar
+======
+*/
+.navbar {
+  background: var(--mainWhite);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--primaryColor);
+  box-shadow: var(--lightShadow);
+  /*   background: url("../../jalousie/src/FonGreen.jpg") 0 0 no-repeat; */
+  background-color: #5d5e5f;
+  background-size: cover;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--fullWidth);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+  color: #373737;
+}
+.nav-links a:hover {
+  color: $mainColor;
+}
+.logo {
+  width: 12rem;
+}
+
+/* 
+====== 
+Error
+======
+*/
+.error-page {
+  display: flex;
+  justify-content: center;
+}
+.error-container {
+  text-align: center;
+  text-transform: capitalize;
+}
+.section {
+  padding: 5rem 0 0 0;
+}
+.section-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+/* 
+====== 
+Form
+======
+*/
+.search {
+  margin-top: 1rem;
+  padding-bottom: 0;
+}
+
+.search-form {
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+  background: var(--mainWhite);
+  padding: 2rem 2.5rem;
+  text-transform: capitalize;
+  border-radius: var(--mainBorderRadius);
+  box-shadow: var(--lightShadow);
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  color: var(--primaryColor);
+}
+.form-control input {
+  width: 100%;
+  border: none;
+  border-color: transparent;
+  background: var(--mainBackground);
+  border-radius: var(--mainBorderRadius);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  background: transparent;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader {
+  color: var(--primaryColor);
+  text-indent: -9999em;
+  margin: 88px auto;
+  margin-top: 20rem;
+  position: relative;
+  font-size: 3rem;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: "";
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}

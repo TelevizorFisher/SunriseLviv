@@ -1,0 +1,132 @@
+$minwidth: 320px;
+$mw: 1024;
+$md1: $mw + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+$mainColor: #ff6200;
+$mainGreyColor: #5d5e5f;
+.header {
+  &__menu {
+    padding: 0 0 0 3.15789%;
+    flex: 1 1 auto;
+
+    @media (max-width: $md3+px) {
+      padding: 0;
+    }
+  }
+}
+.menu {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media (max-width: $md2+px) {
+      justify-content: space-between;
+    }
+  }
+  &__link-1 {
+    display: flex;
+    align-items: center;
+    margin: 0px 32px 0px 0px;
+    max-width: 200px;
+    position: relative;
+    padding: 0px 0px 0px 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    max-width: 200px;
+    position: relative;
+    padding: 0px 0px 0px 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    @media (max-width: $md3+px) {
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 15px;
+    }
+  }
+}
+.goto-block {
+  white-space: nowrap;
+  position: relative;
+  color: #fff;
+  border-radius: 8px;
+  padding: 3px 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: rgb(230, 150, 6);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 150, 6, 0.9856092095041141) 0%,
+    rgba(255, 61, 0, 1) 100%
+  );
+  @media (max-width: $md3+px) {
+    padding: 3px 10px;
+  }
+  @media (max-width: 360px) {
+    padding: 2px 9px;
+  }
+  &:hover {
+    cursor: pointer;
+    background: rgb(230, 150, 6);
+    background: linear-gradient(
+      90deg,
+      rgba(228, 157, 25, 0.986) 0%,
+      rgb(255, 94, 0) 100%
+    );
+    box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2),
+      0px 8px 16px rgba(38, 38, 38, 0.24);
+  }
+}
+.__goto-block {
+  padding: 0px -5px 0px 0px;
+  background: url("../img-main/img-header/clock.png") left no-repeat;
+  height: 30px;
+  background-size: contain;
+  @media (max-width: $md2+px) {
+    display: none;
+  }
+}
+._goto-block {
+  padding: 0px -5px 0px 0px;
+  height: 24px;
+  background: url("../img-main/img-header/phone.png") left no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+/* icons stule , сами иконки в футере */
+.list-icon-header {
+  display: flex;
+
+  align-items: center;
+
+  span {
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 20px;
+    background-size: cover;
+    display: inline-block;
+    cursor: pointer;
+
+    filter: invert(51%) sepia(105%) saturate(3000%) hue-rotate(367deg)
+      brightness(119%) contrast(99%);
+  }
+  span:first-child {
+    margin: 0px 0px 0px 40px;
+  }
+  span:last-child {
+    margin: 0px 40px 0px 15px;
+  }
+}

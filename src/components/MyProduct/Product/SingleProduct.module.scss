@@ -1,0 +1,29 @@
+.portfolio {
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__cart_body {
+		display: flex;	
+		margin: 15px 15px 10px 15px;
+		height: 500px;
+		max-width: 500px;
+		background-color: rebeccapurple;
+	}
+	&__cart {
+		position: relative;
+		padding: 15px 0px 15px 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+		height: 500px;
+		min-width: 500px;
+		font-weight: bold;
+		color: #fff;
+		font-size: 30px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
