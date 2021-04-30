@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/SunriseLviv/static/css/main.5899e5e9.chunk.css",
-    "main.js": "/SunriseLviv/static/js/main.eb616d3a.chunk.js",
-    "main.js.map": "/SunriseLviv/static/js/main.eb616d3a.chunk.js.map",
+    "main.css": "/SunriseLviv/static/css/main.549c6097.chunk.css",
+    "main.js": "/SunriseLviv/static/js/main.65e26661.chunk.js",
+    "main.js.map": "/SunriseLviv/static/js/main.65e26661.chunk.js.map",
     "runtime-main.js": "/SunriseLviv/static/js/runtime-main.b30398dd.js",
     "runtime-main.js.map": "/SunriseLviv/static/js/runtime-main.b30398dd.js.map",
     "static/css/2.e22355b1.chunk.css": "/SunriseLviv/static/css/2.e22355b1.chunk.css",
-    "static/js/2.e9e3c7f7.chunk.js": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js",
-    "static/js/2.e9e3c7f7.chunk.js.map": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js.map",
+    "static/js/2.be580e2c.chunk.js": "/SunriseLviv/static/js/2.be580e2c.chunk.js",
+    "static/js/2.be580e2c.chunk.js.map": "/SunriseLviv/static/js/2.be580e2c.chunk.js.map",
     "index.html": "/SunriseLviv/index.html",
-    "precache-manifest.33cd3d1f10853e8a95edfb5391a6a4ad.js": "/SunriseLviv/precache-manifest.33cd3d1f10853e8a95edfb5391a6a4ad.js",
+    "precache-manifest.d41b2e943c6398afcffe342359c83f82.js": "/SunriseLviv/precache-manifest.d41b2e943c6398afcffe342359c83f82.js",
     "service-worker.js": "/SunriseLviv/service-worker.js",
     "static/css/2.e22355b1.chunk.css.map": "/SunriseLviv/static/css/2.e22355b1.chunk.css.map",
-    "static/css/main.5899e5e9.chunk.css.map": "/SunriseLviv/static/css/main.5899e5e9.chunk.css.map",
-    "static/js/2.e9e3c7f7.chunk.js.LICENSE.txt": "/SunriseLviv/static/js/2.e9e3c7f7.chunk.js.LICENSE.txt",
+    "static/css/main.549c6097.chunk.css.map": "/SunriseLviv/static/css/main.549c6097.chunk.css.map",
+    "static/js/2.be580e2c.chunk.js.LICENSE.txt": "/SunriseLviv/static/js/2.be580e2c.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/SunriseLviv/static/media/FonGreen.69fe1804.jpg",
+    "static/media/M1.jpg": "/SunriseLviv/static/media/M1.82adbbea.jpg",
+    "static/media/M2.jpg": "/SunriseLviv/static/media/M2.e813bbab.jpg",
+    "static/media/M3.jpg": "/SunriseLviv/static/media/M3.c82a7047.jpg",
+    "static/media/M4.jpg": "/SunriseLviv/static/media/M4.c107ea59.jpg",
+    "static/media/M5.jpg": "/SunriseLviv/static/media/M5.489b9202.jpg",
+    "static/media/M6.jpg": "/SunriseLviv/static/media/M6.e7917d22.jpg",
+    "static/media/M7.jpg": "/SunriseLviv/static/media/M7.8daee08b.jpg",
+    "static/media/M8.jpg": "/SunriseLviv/static/media/M8.34f7fa39.jpg",
+    "static/media/M9.jpg": "/SunriseLviv/static/media/M9.6f8a01c8.jpg",
     "static/media/HeaderInfo.scss": "/SunriseLviv/static/media/phone.6774a16f.png",
-    "static/media/Footer.scss": "/SunriseLviv/static/media/social-3.817d585a.png"
+    "static/media/Footer.scss": "/SunriseLviv/static/media/social-3.817d585a.png",
+    "static/media/логотип-круг.jpg": "/SunriseLviv/static/media/логотип-круг.8e927f9a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b30398dd.js",
     "static/css/2.e22355b1.chunk.css",
-    "static/js/2.e9e3c7f7.chunk.js",
-    "static/css/main.5899e5e9.chunk.css",
-    "static/js/main.eb616d3a.chunk.js"
+    "static/js/2.be580e2c.chunk.js",
+    "static/css/main.549c6097.chunk.css",
+    "static/js/main.65e26661.chunk.js"
   ]
 }

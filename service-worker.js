@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SunriseLviv/precache-manifest.33cd3d1f10853e8a95edfb5391a6a4ad.js"
+  "/SunriseLviv/precache-manifest.d41b2e943c6398afcffe342359c83f82.js"
 );
 
 self.addEventListener('message', (event) => {
