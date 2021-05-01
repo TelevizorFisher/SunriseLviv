@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SunriseLviv/static/css/main.48231391.chunk.css",
-    "main.js": "/SunriseLviv/static/js/main.34ca7219.chunk.js",
-    "main.js.map": "/SunriseLviv/static/js/main.34ca7219.chunk.js.map",
+    "main.css": "/SunriseLviv/static/css/main.c2a7d810.chunk.css",
+    "main.js": "/SunriseLviv/static/js/main.740fada8.chunk.js",
+    "main.js.map": "/SunriseLviv/static/js/main.740fada8.chunk.js.map",
     "runtime-main.js": "/SunriseLviv/static/js/runtime-main.b30398dd.js",
     "runtime-main.js.map": "/SunriseLviv/static/js/runtime-main.b30398dd.js.map",
     "static/css/2.e22355b1.chunk.css": "/SunriseLviv/static/css/2.e22355b1.chunk.css",
-    "static/js/2.05f0e9df.chunk.js": "/SunriseLviv/static/js/2.05f0e9df.chunk.js",
-    "static/js/2.05f0e9df.chunk.js.map": "/SunriseLviv/static/js/2.05f0e9df.chunk.js.map",
+    "static/js/2.786684a2.chunk.js": "/SunriseLviv/static/js/2.786684a2.chunk.js",
+    "static/js/2.786684a2.chunk.js.map": "/SunriseLviv/static/js/2.786684a2.chunk.js.map",
     "index.html": "/SunriseLviv/index.html",
-    "precache-manifest.fed6410866fd59c6d86a8b31f1d1390c.js": "/SunriseLviv/precache-manifest.fed6410866fd59c6d86a8b31f1d1390c.js",
+    "precache-manifest.11c8cea4216f6e8db2c076329292db7f.js": "/SunriseLviv/precache-manifest.11c8cea4216f6e8db2c076329292db7f.js",
     "service-worker.js": "/SunriseLviv/service-worker.js",
     "static/css/2.e22355b1.chunk.css.map": "/SunriseLviv/static/css/2.e22355b1.chunk.css.map",
-    "static/css/main.48231391.chunk.css.map": "/SunriseLviv/static/css/main.48231391.chunk.css.map",
-    "static/js/2.05f0e9df.chunk.js.LICENSE.txt": "/SunriseLviv/static/js/2.05f0e9df.chunk.js.LICENSE.txt",
+    "static/css/main.c2a7d810.chunk.css.map": "/SunriseLviv/static/css/main.c2a7d810.chunk.css.map",
+    "static/js/2.786684a2.chunk.js.LICENSE.txt": "/SunriseLviv/static/js/2.786684a2.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/SunriseLviv/static/media/FonGreen.69fe1804.jpg",
     "static/media/M1.jpg": "/SunriseLviv/static/media/M1.82adbbea.jpg",
     "static/media/M2.jpg": "/SunriseLviv/static/media/M2.e813bbab.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.b30398dd.js",
     "static/css/2.e22355b1.chunk.css",
-    "static/js/2.05f0e9df.chunk.js",
-    "static/css/main.48231391.chunk.css",
-    "static/js/main.34ca7219.chunk.js"
+    "static/js/2.786684a2.chunk.js",
+    "static/css/main.c2a7d810.chunk.css",
+    "static/js/main.740fada8.chunk.js"
   ]
 }
